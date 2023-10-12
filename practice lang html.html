@@ -20,14 +20,19 @@
         /* Header styling */
         header {
             background-color: #333;
-            padding: 20px;
             text-align: center;
+            height: 25vh;
+            padding-bottom: 20px;
         }
+        
 
         /* Logo image styling */
         header img {
             max-width: 100%;
             height: auto;
+        }
+        header img:hover{
+            transform: scale(1.1);
         }
 
         /* Heading styling */
@@ -35,6 +40,7 @@
             color: #333;
             font-family: Arial, sans-serif;
             text-align: center;
+            padding-top: 15px;
         }
 
         /* Paragraph text styling */
@@ -52,11 +58,21 @@
         .pc-icon {
             text-align: center;
         }
+        a{
+            text-decoration: none;
+            color: rgb(236, 88, 255);
+            font-weight: bold;
+        }
+        a:hover{
+            color: burlywood;
+        }
     </style>
 </head>
 <body>
     <header>
-        <img src="download.png" alt="Logo">
+        <a href="https://github.com/StudentXander" target="_blank">
+            <img src="logo1.png" alt="Logo">
+        </a>
     </header>
     <h1>
         <strong>My Evolving Webpage</strong>
@@ -71,10 +87,10 @@
             <a href="file:///C:/Users/ACER/OneDrive/Desktop/App%20Dev/PHP%20Part%20I%20(1).pdf">PHP 1</a>
         </li>
         <li>
-            <a href="C:\Users\ACER\OneDrive\Desktop\App Dev\practice html css script\Logistic Regression in Supervised Machine Learning (1) (1).pdf">Logistic Regression Review</a>
+            <a href="Logistic Regression in Supervised Machine Learning (1) (1).pdf" target=”_blank”>Logistic Regression Review</a>
         </li>
         <li>
-            <a href="C:\Users\ACER\OneDrive\Desktop\App Dev\practice html css script\The applications of Computational Science.pdf">Application of Computer Science</a>
+            <a href="The applications of Computational Science.pdf" target=”_blank”>Application of Computer Science</a>
         </li>
     </ul>
     <h2>Image Example</h2>
@@ -82,7 +98,7 @@
         <li>Images</li>
         <li>
             <div class="pc-icon">
-                <img src="download.jpg" alt="PC Icon">
+                <img src="download.png" alt="PC Icon" target=”_blank”>
                 <h3><strong><em>PC Icon</em></strong></h3>
             </div>
         </li>
